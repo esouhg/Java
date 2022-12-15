@@ -1,3 +1,5 @@
+//program to check whether given number is prime or not
+
 import java.util.*;
 
 //Math and Scanner part of java.util
