@@ -1,5 +1,5 @@
 //random java program covering basics like print, input, operations, variable initializations
-//program quoted out: calculate area of circle by getting radius from user
+//program commented out: calculate area of circle by getting radius from user
 
 import java.util.*;
 
