@@ -1,3 +1,6 @@
+//program to calculate average of 3 numbers, total of them and with 18% tax
+//program in quotes: calculate area of square by taking input from user.
+
 import java.util.*;
 
 public class average{
@@ -16,8 +19,8 @@ public class average{
         System.out.println("Grand total is: " + grndttl);
         System.out.println("Average is: " + avg);
         System.out.println("Side tell: ");
-        float s =sc.nextFloat();
-        float a = s*s;
-        System.out.println("Area is: " + a);
+//         float s =sc.nextFloat();
+//         float a = s*s;
+//         System.out.println("Area is: " + a);
     }
 }
