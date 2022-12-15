@@ -1,5 +1,7 @@
+//program to create a basic calculator using switch case
+
 import java.util.*;
-/*switch case calculator*/
+
 public class calculator{
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
