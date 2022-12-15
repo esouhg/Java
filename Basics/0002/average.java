@@ -1,5 +1,5 @@
 //program to calculate average of 3 numbers, total of them and with 18% tax
-//program in quotes: calculate area of square by taking input from user.
+//program commented out: calculate area of square by taking input from user.
 
 import java.util.*;
 
