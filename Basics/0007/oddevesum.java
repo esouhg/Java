@@ -1,8 +1,11 @@
+//program to take inputs from user and find sum of odd, even numbers seperately
+
 import java.util.*;
 
 public class oddevesum {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
+        System.out.print("No. of numbers: ");
         int n = sc.nextInt();
         int evesum = 0;
         int oddsum = 0;
@@ -14,8 +17,8 @@ public class oddevesum {
                 oddsum = oddsum + x;
             }
         }
-        System.out.println(evesum);
-        System.out.println(oddsum);
+        System.out.println("Even sum: "+evesum);
+        System.out.println("Odd sum: "+oddsum);
 
     }
 }
