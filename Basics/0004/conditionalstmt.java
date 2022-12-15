@@ -1,4 +1,5 @@
-
+//program to find greatest of three user input numbers
+//program commented out: get age from user and say whether they are adult child teenager or baby
 import java.util.*;
 
 public class conditionalstmt {
