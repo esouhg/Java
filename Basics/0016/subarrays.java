@@ -1,3 +1,5 @@
+//program to print min and max sum of subarrays using bruteforce
+
 import java.util.*;
 
 public class subarrays {
@@ -9,16 +11,12 @@ public class subarrays {
                 int sum = 0;
                 for (int k = i; k <= j; k++) {
                     sum = sum + arry[k];
-                    System.out.print(arry[k]);
-                    System.out.print(' ');
                 }
                 if (sum > max_sum) {
                     max_sum = sum;
-                } else if (sum < min_sum) {
+                } if (sum < min_sum) {
                     min_sum = sum;
                 }
-                System.out.println();
-                System.out.println(sum);
 
             }
         }
