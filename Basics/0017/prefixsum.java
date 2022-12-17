@@ -1,6 +1,6 @@
 //program to find max sum of subarray using prefix sum method
 public class subaraprefix {
-    public static void preffixara(int arry[]) {
+    public static void preffixsum(int arry[]) {
         int arry2[] = new int[arry.length];
         int sumo = 0;
         int max_sum = Integer.MIN_VALUE;
