@@ -34,6 +34,10 @@ public class bubsort {
     }
 
     public static int[] insort(int[] arry) {//insertion sort
+        //seperate as sorted and unsorted
+        //take one from seperated from
+        //compare each from unsorted with sorted
+        //place it in proper position
         for (int i = 1; i < arry.length; i++) {
             int curr = i;
             int temp = arry[curr];
@@ -48,6 +52,9 @@ public class bubsort {
     }
 
     public static void counsort(int[] arry) { //count sort
+        //can be used only if the range of numbers is small
+        //create count array with numbers as index
+        //fill it with frequency of numbers
         int max = arry[0];
         for (int i = 0; i < arry.length; i++) {
             if (arry[i] > max) {
