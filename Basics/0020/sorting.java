@@ -2,6 +2,7 @@ import java.util.*;
 
 public class bubsort {
     public static int[] bubesort(int[] arry) { //bubble sort
+        //sort by adjacent swapping
         for (int i = 1; i < arry.length; i++) {
             for (int j = 0; j <= arry.length - 2 - i + 1; j++) {
                 if (arry[j] > arry[j + 1]) {
