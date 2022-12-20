@@ -16,6 +16,7 @@ public class bubsort {
     }
 
     public static int[] selsort(int[] arry) { //selection sort
+        //pick smallest, place at first
         for (int i = 0; i < arry.length - 1; i++) {
             int min = arry[i];
             int kek = 0;
