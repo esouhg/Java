@@ -1,5 +1,5 @@
 
-
+//creating linked list from scratch, without using java.util.collections
 public class LinkedList {
     class Node{
         int data;
@@ -93,18 +93,6 @@ public class LinkedList {
         return recSearch(key, idx+1, temp.next);}
         return -1;
     }
-    // public void reverse(){
-    //     Node prev = null;
-    //     Node curr = tail = head;
-    //     Node next;
-    //     while(curr!=null){
-    //         next = curr.next;
-    //         curr.next = prev;
-    //         prev = curr;
-    //         curr = next;
-    //     }
-    //     head = prev;
-    // }
     public void reverse(){
         Node t = null;
         Node point = head;
@@ -234,26 +222,7 @@ public class LinkedList {
     }
     public static void main(String args[]){
         LinkedList ll = new LinkedList();
-    ll.addLast(1);
-    ll.addLast(2);
-    ll.addLast(3);
-    ll.addLast(4);
-    ll.addLast(5);
-    ll.addLast(6);
-    ll.addLast(7);
-    //ll.addLast(8);
-    //ll.print();
-    ll.zigzag();
-    ll.print();
-    // Node temp = head;
-    // while(temp.next!=null){
-    //     temp=temp.next;
-    // }
-    // temp.next = head;
-    // //     System.out.println(ll.detcycle());
-    // System.out.println(detcycle());
-    // ll.rmcycle();
-    // System.out.println(detcycle());
+        //whatever you want to
         
     }
 }
